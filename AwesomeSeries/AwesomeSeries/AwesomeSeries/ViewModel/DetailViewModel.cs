@@ -63,8 +63,8 @@ namespace AwesomeSeries.ViewModel
             Name = serie.OriginalName;
             Overview = serie.Overview;
 
-            Poster = serie.PosterPath;
-            Backdrop = serie.BackdropPath;
+            Poster = serie.Poster;
+            Backdrop = serie.Backdrop;
             RealeseDate = serie.ReleaseDate;
 
             await base.InitializeAsync(parameter);
