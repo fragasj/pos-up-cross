@@ -27,6 +27,10 @@
                             <StackLayout>
                                 <Label Text="{Binding Name}" FontSize="Medium" />
                                 <Label Text="{Binding OriginalName}" FontSize="Small" />
+                                <Label Text="{Binding VoteAverage}" FontSize="Small" />
+                                <Label Text="{Binding ReleaseDate}" FontSize="Small" />                                
+
+                                
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>

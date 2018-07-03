@@ -16,7 +16,7 @@ namespace AwesomeSeries.Models
         public DateTimeOffset FirstAirDate { get; set; }
 
         [JsonProperty("backdrop_path")]
-        public string BackdropPath { get; set; }
+        public string BackdropPath { get; set; } 
 
         [JsonProperty("id")]
         public long Id { get; set; }
@@ -43,6 +43,6 @@ namespace AwesomeSeries.Models
         }
 
         [JsonIgnore]
-        public string ReleaseDate { get { return $"{FirstAirDate:dd/mm/yy}"; } }
+        public string ReleaseDate { get { return $"{FirstAirDate:dd/mm/yyyy}"; } }
     }
 }
